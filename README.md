@@ -8,4 +8,4 @@
 
 ## TODO
 
-[ ] OpenMP support(gomp)
+* [ ] OpenMP support(gomp)

@@ -4,7 +4,7 @@
 # BSD license as described in the LICENSE file in the top-level directory.
 
 CXX=g++-4.8
-CXXFLAGS  = -g -O2 -Wall -std=c++11 -fPIC $(INCLUDES)
+CXXFLAGS  = -g -fopenmp -O2 -Wall -std=c++11 -fPIC $(INCLUDES)
 
 # statically link gomp(GNU openmp)
 #LDFLGAS = `${CXX} -print-file-name=libgomp.a`

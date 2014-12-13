@@ -10,7 +10,6 @@
 #define NAO_SAMPLES  8
 
 #ifdef _OPENMP
-#error
 #include <omp.h>
 #endif
 

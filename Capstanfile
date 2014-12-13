@@ -25,3 +25,4 @@ build: make
 #
 files:
   /tools/ao.so: ao.so
+  /usr/lib/libgomp.so.1: /usr/local/lib/gcc/x86_64-unknown-linux-gnu/4.8.0/../../../../lib64/libgomp.so.1
